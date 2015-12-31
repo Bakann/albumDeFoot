@@ -1,0 +1,177 @@
+[
+      {
+         "commonName":"Cristiano Ronaldo",
+         "firstName":"C. Ronaldo",
+         "headshotImgUrl":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/players\/html5\/120x120\/20801.png",
+         "lastName":"dos Santos Aveiro",
+         "league":{
+            "abbrName":"ESP 1",
+            "id":53,
+            "imgUrl":null,
+            "name":"Liga BBVA"
+         },
+         "nation":{
+            "imageUrls":{
+               "small":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/flags\/html5\/24x14\/38.png",
+               "medium":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/flags\/html5\/35x22\/38.png",
+               "large":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/flags\/html5\/45x28\/38.png"
+            },
+            "abbrName":"Portugal",
+            "id":38,
+            "imgUrl":null,
+            "name":"Portugal"
+         },
+         "club":{
+            "imageUrls":{
+               "dark":{
+                  "small":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/clubbadges\/html5\/dark\/24x24\/l243.png",
+                  "medium":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/clubbadges\/html5\/dark\/35x35\/l243.png",
+                  "large":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/clubbadges\/html5\/dark\/45x45\/l243.png"
+               },
+               "normal":{
+                  "small":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/clubbadges\/html5\/normal\/24x24\/l243.png",
+                  "medium":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/clubbadges\/html5\/normal\/35x35\/l243.png",
+                  "large":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/clubbadges\/html5\/normal\/45x45\/l243.png"
+               }
+            },
+            "abbrName":"R. Madrid",
+            "id":243,
+            "imgUrl":null,
+            "name":"Real Madrid CF"
+         },
+         "headshot":{
+            "largeImgUrl":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/players\/html5\/120x120\/20801.png",
+            "medImgUrl":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/players\/html5\/92x92\/20801.png",
+            "smallImgUrl":"https:\/\/fifa15.content.easports.com\/fifa\/fltOnlineAssets\/B488919F-23B5-497F-9FC0-CACFB38863D0\/2016\/fut\/items\/images\/players\/html5\/40x40\/20801.png"
+         },
+         "specialImages":{
+            "largeTOTWImgUrl":null,
+            "medTOTWImgUrl":null
+         },
+         "position":"LW",
+         "playStyle":"Basic",
+         "playStyleId":null,
+         "height":185,
+         "weight":80,
+         "birthdate":"1985-02-05",
+         "age":30,
+         "acceleration":93,
+         "aggression":67,
+         "agility":93,
+         "balance":64,
+         "ballcontrol":94,
+         "foot":"Right",
+         "skillMoves":5,
+         "crossing":88,
+         "curve":94,
+         "dribbling":96,
+         "finishing":98,
+         "freekickaccuracy":83,
+         "gkdiving":7,
+         "gkhandling":11,
+         "gkkicking":15,
+         "gkpositioning":14,
+         "gkreflexes":11,
+         "headingaccuracy":99,
+         "interceptions":35,
+         "jumping":99,
+         "longpassing":77,
+         "longshots":96,
+         "marking":26,
+         "penalties":87,
+         "positioning":96,
+         "potential":93,
+         "reactions":95,
+         "shortpassing":87,
+         "shotpower":97,
+         "slidingtackle":27,
+         "sprintspeed":96,
+         "standingtackle":37,
+         "stamina":94,
+         "strength":86,
+         "vision":87,
+         "volleys":89,
+         "weakFoot":4,
+         "traits":[
+            "Takes Powerful Driven Free Kicks",
+            "Flair",
+            "Shooting - Long Shot Taker",
+            "Dribbler - Speed Dribbler"
+         ],
+         "specialities":[
+            "Speedster",
+            "Aerial Threat",
+            "Dribbler",
+            "Distance Shooter",
+            "Crosser",
+            "Acrobat",
+            "Clinical Finisher",
+            "Complete Forward",
+            "Poacher"
+         ],
+         "atkWorkRate":"High",
+         "defWorkRate":"Low",
+         "playerType":"team of the week",
+         "attributes":[
+            {
+               "name":"fut.attribute.PAC",
+               "value":95,
+               "chemistryBonus":[
+                  0
+               ]
+            },
+            {
+               "name":"fut.attribute.SHO",
+               "value":96,
+               "chemistryBonus":[
+                  0
+               ]
+            },
+            {
+               "name":"fut.attribute.PAS",
+               "value":86,
+               "chemistryBonus":[
+                  0
+               ]
+            },
+            {
+               "name":"fut.attribute.DRI",
+               "value":93,
+               "chemistryBonus":[
+                  0
+               ]
+            },
+            {
+               "name":"fut.attribute.DEF",
+               "value":40,
+               "chemistryBonus":[
+                  0
+               ]
+            },
+            {
+               "name":"fut.attribute.PHY",
+               "value":85,
+               "chemistryBonus":[
+                  0
+               ]
+            }
+         ],
+         "name":"Cristiano Ronaldo",
+         "quality":"gold",
+         "color":"totw_gold",
+         "isGK":false,
+         "positionFull":"Left Wing",
+         "isSpecialType":false,
+         "contracts":null,
+         "fitness":null,
+         "rawAttributeChemistryBonus":null,
+         "isLoan":null,
+         "itemType":"player",
+         "discardValue":null,
+         "id":"83906881",
+         "modelName":"FUTPlayerItem",
+         "baseId":20801,
+         "rating":96
+    }
+
+]
