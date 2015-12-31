@@ -2,7 +2,6 @@ package main
 
 import (
 	"bytes"
-	"encoding/json"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -10,14 +9,7 @@ import (
 	"net/http"
 	"os"
 	"sync"
-	"time"
 )
-
-type player struct {
-	ID     int64  `json:"id"`
-	Author string `json:"author"`
-	Text   string `json:"text"`
-}
 
 const dataFile = "./players.json"
 
@@ -31,7 +23,7 @@ func handlePlayers(w http.ResponseWriter, r *http.Request) {
 	defer playerMutex.Unlock()
 
 	// Stat the file, so we can find its current permissions
-	fi, err := os.Stat(dataFile)
+	_, err := os.Stat(dataFile)
 	if err != nil {
 		http.Error(w, fmt.Sprintf("Unable to stat the data file (%s): %s", dataFile, err), http.StatusInternalServerError)
 		return
@@ -45,34 +37,6 @@ func handlePlayers(w http.ResponseWriter, r *http.Request) {
 	}
 
 	switch r.Method {
-	case "POST":
-		// Decode the JSON data
-		var players []player
-		if err := json.Unmarshal(playerData, &players); err != nil {
-			http.Error(w, fmt.Sprintf("Unable to Unmarshal players from data file (%s): %s", dataFile, err), http.StatusInternalServerError)
-			return
-		}
-
-		// Add a new player to the in memory slice of players
-		players = append(players, player{ID: time.Now().UnixNano() / 1000000, Author: r.FormValue("author"), Text: r.FormValue("text")})
-
-		// Marshal the players to indented json.
-		playerData, err = json.MarshalIndent(players, "", "    ")
-		if err != nil {
-			http.Error(w, fmt.Sprintf("Unable to marshal players to json: %s", err), http.StatusInternalServerError)
-			return
-		}
-
-		// Write out the players to the file, preserving permissions
-		err := ioutil.WriteFile(dataFile, playerData, fi.Mode())
-		if err != nil {
-			http.Error(w, fmt.Sprintf("Unable to write players to data file (%s): %s", dataFile, err), http.StatusInternalServerError)
-			return
-		}
-
-		w.Header().Set("Content-Type", "application/json")
-		w.Header().Set("Cache-Control", "no-cache")
-		io.Copy(w, bytes.NewReader(playerData))
 
 	case "GET":
 		w.Header().Set("Content-Type", "application/json")
