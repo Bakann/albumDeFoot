@@ -8,9 +8,8 @@ var Player = React.createClass({
     return (
       <div className="player">
         <h2 className="playerName">
-          {this.props.name}
+        <img src={this.props.headshotImgUrl} alt={this.props.name} />
         </h2>
-        <span dangerouslySetInnerHTML={this.rawMarkup()} />
       </div>
     );
   }
@@ -51,8 +50,8 @@ var PlayerList = React.createClass({
   render: function() {
     var playerNodes = this.props.data.map(function(player) {
       return (
-        <Player name={player.name} key={player.id}>
-          {player.quality}
+        <Player name={player.name} headshotImgUrl={player.headshotImgUrl} key={player.id}>
+          
         </Player>
       );
     });
